@@ -1,20 +1,25 @@
-.task{
-    background-color: #f4f4f4;
-    padding: 5px 10px;
-    margin: 2px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.task p{
-    font-size: 10px;
+.task {
+  background-color: #f4f4f4;
+  padding: 5px 10px;
+  margin: 2px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.task h3{
-    display:  flex;
-    justify-content: space-between;
-    align-items: center;
+.task p {
+  font-size: 10px;
 }
 
-fa-icon{
-    font-size: 15px;
+.task.reminder {
+  border-left: 5px solid green;
+}
+
+.task h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+fa-icon {
+  font-size: 15px;
 }
